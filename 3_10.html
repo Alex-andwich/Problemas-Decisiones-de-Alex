@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="problemas">
+      <div class="contenedor">
+        <h1>Vacaciones</h1>
+        <h2>Destinos disponibles</h2>
+
+        <ul>
+          <li>México → 750 km</li>
+          <li>P.V. → 800 km</li>
+          <li>Acapulco → 1200 km</li>
+          <li>Cancún → 1800 km</li>
+        </ul>
+        <label for="money">Dinero disponible:</label>
+        <input type="number" id="money" name="money" /><br />
+        <label for="priceKm">Costo por kilometro:</label>
+        <input type="number" id="priceKm" name="priceKm" /><br />
+        <button onclick="calcular()">Ver destino</button> <br />
+        <p id="resultado"></p>
+        <ul>
+          <li><a href="../index.html">Regresa al inicio 🏠</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="../scripts/3_10.js" defer></script>
+</html>

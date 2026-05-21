@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="problemas">
+      <div class="contenedor">
+        <h1>Póliza de seguro</h1>
+        <label for="plan">Tipo de póliza (A o B):</label>
+        <input type="text" id="plan" name="plan" /><br />
+        <label for="age">Edad:</label>
+        <input type="number" id="age" name="age" /><br />
+        <label>
+          <input type="checkbox" id="alcohol" />
+          Consume alcohol
+        </label>
+
+        <label>
+          <input type="checkbox" id="glasses" />
+          Usa lentes
+        </label>
+
+        <label>
+          <input type="checkbox" id="disease" />
+          Tiene enfermedad
+        </label>
+        <button onclick="calcular()">Calcular póliza</button> <br />
+        <p id="resultado"></p>
+        <ul>
+          <li><a href="../index.html">Regresa al inicio 🏠</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="../scripts/3_9.js" defer></script>
+</html>

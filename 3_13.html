@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="problemas">
+      <div class="contenedor">
+        <h1>Viaje escolar</h1>
+        <h2>Tarifas por alumno</h2>
+
+        <ul>
+          <li>Más de 100 alumnos → $20</li>
+          <li>Entre 50 y 100 alumnos → $35</li>
+          <li>Entre 20 y 49 alumnos → $40</li>
+          <li>Menos de 20 alumnos → $70</li>
+        </ul>
+        <label for="students">Cantidad de alumnos:</label>
+        <input type="number" id="students" name="students" /><br />
+        <button onclick="calcular()">Calcular costo</button> <br />
+        <p id="resultado"></p>
+        <ul>
+          <li><a href="../index.html">Regresa al inicio 🏠</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="../scripts/3_13.js" defer></script>
+</html>

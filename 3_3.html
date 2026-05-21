@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="problemas">
+      <div class="contenedor">
+        <h1>Sueldo semanal</h1>
+        <h2>Opciones de regalo</h2>
+        <ul class="regalos">
+          <li>💌 Tarjeta → $10 o menos</li>
+          <li>🍫 Chocolates → $11 a $100</li>
+          <li>🌹 Flores → $101 a $250</li>
+          <li>💍 Anillo → Más de $250</li>
+        </ul>
+        <label for="money">Dinero disponible:</label>
+        <input type="number" id="money" name="money" /><br />
+        <button onclick="calcular()">Ver regalo</button> <br />
+        <p id="resultado"></p>
+        <ul>
+          <li><a href="../index.html">Regresa al inicio 🏠</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="../scripts/3_3.js" defer></script>
+</html>

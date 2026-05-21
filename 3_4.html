@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="problemas">
+      <div class="contenedor">
+        <h1>Cobro de estacionamiento</h1>
+
+        <h2>Tarifas</h2>
+
+        <ul class="tarifas">
+          <li>Primeras 2 horas → $5 por hora</li>
+          <li>Siguientes 3 horas → $4 por hora</li>
+          <li>Siguientes 5 horas → $3 por hora</li>
+          <li>Después de 10 horas → $2 por hora</li>
+        </ul>
+        <label for="hours">Horas estacionado:</label>
+        <input type="number" id="hours" name="hours" /><br />
+        <button onclick="calcular()">Calcular cobro</button> <br />
+        <p id="resultado"></p>
+        <ul>
+          <li><a href="../index.html">Regresa al inicio 🏠</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="../scripts/3_4.js" defer></script>
+</html>
